@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @EnableAutoConfiguration
+@SpringBootConfiguration
 public class Main {
 
     @RequestMapping("/")
